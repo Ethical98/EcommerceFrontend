@@ -1,0 +1,30 @@
+[data-toggle='collapse'] .fa:before {
+  content: '\f13a';
+}
+
+[data-toggle='collapse'].collapsed .fa:before {
+  content: '\f138';
+}
+
+.seasonal-clothing {
+  border: none;
+}
+.uniform-buy {
+  border: none;
+}
+.class {
+  border: none;
+}
+.product-category {
+  border: none;
+}
+
+@media (max-width: 576px) {
+  
+    .filter:before {
+      content: '\f0b0';
+    }
+
+  
+ 
+}
